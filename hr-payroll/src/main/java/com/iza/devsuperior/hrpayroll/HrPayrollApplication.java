@@ -8,7 +8,6 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableCircuitBreaker
-@EnableEurekaClient
 @RibbonClient(name = "hr-worker")
 @EnableFeignClients
 @SpringBootApplication
